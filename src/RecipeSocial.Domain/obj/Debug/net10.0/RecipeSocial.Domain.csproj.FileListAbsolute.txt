@@ -1,0 +1,11 @@
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/bin/Debug/net10.0/RecipeSocial.Domain.deps.json
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/bin/Debug/net10.0/RecipeSocial.Domain.dll
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/bin/Debug/net10.0/RecipeSocial.Domain.pdb
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.AssemblyInfoInputs.cache
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.AssemblyInfo.cs
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.csproj.CoreCompileInputs.cache
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.dll
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/refint/RecipeSocial.Domain.dll
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.pdb
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/ref/RecipeSocial.Domain.dll
