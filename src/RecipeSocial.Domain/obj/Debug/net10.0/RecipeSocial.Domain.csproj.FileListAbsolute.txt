@@ -5,6 +5,7 @@
 /Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.AssemblyInfoInputs.cache
 /Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.AssemblyInfo.cs
 /Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.csproj.CoreCompileInputs.cache
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.sourcelink.json
 /Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.dll
 /Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/refint/RecipeSocial.Domain.dll
 /Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/obj/Debug/net10.0/RecipeSocial.Domain.pdb
