@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RecipeSocial.Web.Data;
+using RecipeSocial.Domain.Entities;
+
 
 namespace RecipeSocial.Web.Controllers;
 
@@ -62,7 +64,6 @@ public class RecipeController : Controller
     public async Task<IActionResult> AddComment(Guid id, string content)
     {
         var recipe = await _db.Recipes
-            .Include(r => r.Comments)
             .FirstOrDefaultAsync(r => r.Id == id);
 
         if (recipe is null) return NotFound();
@@ -71,9 +72,29 @@ public class RecipeController : Controller
             .Select(u => u.Id)
             .FirstAsync();
 
-        recipe.AddComment(content, currentUserId);
+        var comment = recipe.AddComment(content, currentUserId);
+        _db.Comments.Add(comment);
         await _db.SaveChangesAsync();
 
         return RedirectToAction("Detail", new { id });
+    }
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    // POST /Recipe/Create
+    [HttpPost]
+    public async Task<IActionResult> Create(string title, string description)
+    {
+        var currentUserId = await _db.Users
+            .Select(u => u.Id)
+            .FirstAsync();
+
+        var recipe = new Recipe(currentUserId, title, description);
+        _db.Recipes.Add(recipe);
+        await _db.SaveChangesAsync();
+
+        return RedirectToAction("Index");
     }
 }

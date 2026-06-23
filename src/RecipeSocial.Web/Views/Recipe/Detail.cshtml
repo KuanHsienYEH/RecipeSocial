@@ -24,5 +24,10 @@
 }
 
 <hr />
+<form method="post" action="/Recipe/AddComment/@Model.Id">
+    <textarea name="content" rows="3" placeholder="Write a comment..."></textarea>
+    <br />
+    <button type="submit">Post Comment</button>
+</form>
 
 <a href="/Recipe">Back to Feed</a>

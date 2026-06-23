@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecipeSocial.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9dde5689655a5711e9fbadf16666cf195b0e56b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fb8baf896a4cf6ca5b137082de3a646792832c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecipeSocial.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecipeSocial.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
