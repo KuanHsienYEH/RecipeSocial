@@ -1,0 +1,12 @@
+@model IEnumerable<RecipeSocial.Domain.Entities.Recipe>
+
+<h2>Recipe</h2>
+
+@foreach (var recipe in Model)
+{
+    <div style="border: 1px solid #ccc; margin: 16px 0; padding: 16px;">
+        <h3><a href="/Recipe/Detail/@recipe.Id">@recipe.Title</a></h3>
+        <p>@recipe.Description</p>
+        <small>❤️ @recipe.LikeCount likes・ @recipe.CommentCount comments</small>
+    </div>
+}

@@ -15,7 +15,7 @@ public class Like
             throw new DomainException("RecipeId is required.");
 
         if (userId == Guid.Empty)
-            throw new DomainException("AuthorId is required.");
+            throw new DomainException("UserId is required.");
 
 
         RecipeId = recipeId;

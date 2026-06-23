@@ -16,7 +16,7 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Like 的主鍵是 RecipeId + UserId 的組合
+        // Like 的PK是 RecipeId + UserId 的組合
         modelBuilder.Entity<Like>()
             .HasKey(l => new { l.RecipeId, l.UserId });
     }

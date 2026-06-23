@@ -1,0 +1,28 @@
+@model RecipeSocial.Domain.Entities.Recipe
+
+<h2>@Model.Title</h2>
+<p>@Model.Description</p>
+<p>❤️ @Model.LikeCount likes</p>
+<form method="post" action="/Recipe/ToggleLike/@Model.Id">
+    <button type="submit">❤️ Like</button>
+</form>
+
+<hr />
+
+<h3>Comments</h3>
+
+@if (!Model.Comments.Any())
+{
+    <p>No comments yet.</p>
+}
+
+@foreach (var comment in Model.Comments)
+{
+    <div style="border-left: 3px solid #ccc; padding-left: 8px; margin: 8px 0;">
+        <p>@comment.Content</p>
+    </div>
+}
+
+<hr />
+
+<a href="/Recipe">Back to Feed</a>

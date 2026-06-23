@@ -13,6 +13,8 @@ public class Recipe
     private readonly List<Comment> _comments = new();
     public IReadOnlyCollection<Like> Likes => _likes.AsReadOnly();
     public IReadOnlyCollection<Comment> Comments => _comments.AsReadOnly();
+    public int LikeCount => _likes.Count;
+    public int CommentCount => _comments.Count;
 
     private Recipe() { }
 

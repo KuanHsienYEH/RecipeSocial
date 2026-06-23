@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecipeSocial.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0d6e1a7d438863bc808a4e1394fe7028d589a18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9dde5689655a5711e9fbadf16666cf195b0e56b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecipeSocial.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecipeSocial.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
