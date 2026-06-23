@@ -1,7 +1,3 @@
-## Architecture
-
-[剛才那段英文貼這裡]
-
 ## How to Run
 
 ### Prerequisites
