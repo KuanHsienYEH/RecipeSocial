@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecipeSocial.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3eb29448b794d098f14d540c89088304f5db5d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4979419472b7e931693e63ccfd0f317f2190a00b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecipeSocial.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecipeSocial.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
