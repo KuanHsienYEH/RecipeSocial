@@ -2,6 +2,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RecipeSocial.Domain\RecipeSocial.Domain.csproj" />
+    <ProjectReference Include="..\RecipeSocial.Application\RecipeSocial.Application.csproj" />
+    <ProjectReference Include="..\RecipeSocial.Infrastructure\RecipeSocial.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

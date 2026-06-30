@@ -1,0 +1,16 @@
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/bin/Debug/net10.0/RecipeSocial.Application.deps.json
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/bin/Debug/net10.0/RecipeSocial.Application.dll
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/bin/Debug/net10.0/RecipeSocial.Application.pdb
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/bin/Debug/net10.0/RecipeSocial.Domain.dll
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/bin/Debug/net10.0/RecipeSocial.Domain.pdb
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSocial.Application.csproj.AssemblyReference.cache
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSocial.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSocial.Application.AssemblyInfoInputs.cache
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSocial.Application.AssemblyInfo.cs
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSocial.Application.csproj.CoreCompileInputs.cache
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSocial.Application.sourcelink.json
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSo.BF23F542.Up2Date
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSocial.Application.dll
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/refint/RecipeSocial.Application.dll
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/RecipeSocial.Application.pdb
+/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/obj/Debug/net10.0/ref/RecipeSocial.Application.dll

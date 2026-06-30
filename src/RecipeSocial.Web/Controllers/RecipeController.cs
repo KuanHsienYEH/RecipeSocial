@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using RecipeSocial.Web.Data;
+using RecipeSocial.Infrastructure.Persistence;
 using RecipeSocial.Domain.Entities;
 
 

@@ -1035,6 +1035,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "RecipeSocial.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "RecipeSocial.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RecipeSocial.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RecipeSocial.Application.dll": {}
+        }
+      },
       "RecipeSocial.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1043,6 +1056,22 @@
         },
         "runtime": {
           "bin/placeholder/RecipeSocial.Domain.dll": {}
+        }
+      },
+      "RecipeSocial.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.9",
+          "RecipeSocial.Application": "1.0.0",
+          "RecipeSocial.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RecipeSocial.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RecipeSocial.Infrastructure.dll": {}
         }
       }
     }
@@ -3091,17 +3120,29 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "RecipeSocial.Application/1.0.0": {
+      "type": "project",
+      "path": "../RecipeSocial.Application/RecipeSocial.Application.csproj",
+      "msbuildProject": "../RecipeSocial.Application/RecipeSocial.Application.csproj"
+    },
     "RecipeSocial.Domain/1.0.0": {
       "type": "project",
       "path": "../RecipeSocial.Domain/RecipeSocial.Domain.csproj",
       "msbuildProject": "../RecipeSocial.Domain/RecipeSocial.Domain.csproj"
+    },
+    "RecipeSocial.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../RecipeSocial.Infrastructure/RecipeSocial.Infrastructure.csproj",
+      "msbuildProject": "../RecipeSocial.Infrastructure/RecipeSocial.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.9",
-      "RecipeSocial.Domain >= 1.0.0"
+      "RecipeSocial.Application >= 1.0.0",
+      "RecipeSocial.Domain >= 1.0.0",
+      "RecipeSocial.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3130,8 +3171,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/RecipeSocial.Application.csproj": {
+              "projectPath": "/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Application/RecipeSocial.Application.csproj"
+            },
             "/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/RecipeSocial.Domain.csproj": {
               "projectPath": "/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Domain/RecipeSocial.Domain.csproj"
+            },
+            "/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Infrastructure/RecipeSocial.Infrastructure.csproj": {
+              "projectPath": "/Users/jar-cheesheen/Desktop/Kuan/Code/RecipeSocial/src/RecipeSocial.Infrastructure/RecipeSocial.Infrastructure.csproj"
             }
           }
         }

@@ -9,14 +9,13 @@ public class Like
 
     private Like() { }
 
-     internal Like(Guid userId, Guid recipeId)
+    internal Like(Guid userId, Guid recipeId)
     {
         if (recipeId == Guid.Empty)
             throw new DomainException("RecipeId is required.");
 
         if (userId == Guid.Empty)
             throw new DomainException("UserId is required.");
-
 
         RecipeId = recipeId;
         UserId = userId;

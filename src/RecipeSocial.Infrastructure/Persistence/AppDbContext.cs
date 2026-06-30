@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using RecipeSocial.Domain.Entities;
 
-namespace RecipeSocial.Web.Data;
+namespace RecipeSocial.Infrastructure.Persistence;
 
 public class AppDbContext : DbContext
 {
@@ -16,7 +16,6 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Like 的PK是 RecipeId + UserId 的組合
         modelBuilder.Entity<Like>()
             .HasKey(l => new { l.RecipeId, l.UserId });
     }

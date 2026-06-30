@@ -1,4 +1,5 @@
 using RecipeSocial.Domain.Entities;
+using RecipeSocial.Infrastructure.Persistence; 
 
 namespace RecipeSocial.Web.Data;
 

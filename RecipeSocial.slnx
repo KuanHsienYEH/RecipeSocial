@@ -1,6 +1,8 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/RecipeSocial.Application/RecipeSocial.Application.csproj" />
     <Project Path="src/RecipeSocial.Domain/RecipeSocial.Domain.csproj" />
+    <Project Path="src/RecipeSocial.Infrastructure/RecipeSocial.Infrastructure.csproj" />
     <Project Path="src/RecipeSocial.Web/RecipeSocial.Web.csproj" />
   </Folder>
   <Folder Name="/tests/">
